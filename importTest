@@ -1,0 +1,9 @@
+import testFunc
+
+var1 = testFunc.getValue()
+var2 = testFunc.getValue()
+
+testFunc.validateValue(var1)
+testFunc.validateValue(var2)
+
+print("The area is:", testFunc.findArea(var1, var2))
