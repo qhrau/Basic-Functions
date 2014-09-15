@@ -6,4 +6,5 @@ var2 = testFunc.getValue()
 testFunc.validateValue(var1)
 testFunc.validateValue(var2)
 
-print("The area is:", testFunc.findArea(var1, var2))
+if (testFunc.validateValue(var1) == True and testFunc.validateValue(var2) == True):
+    print("The area is:", testFunc.findArea(var1, var2))
